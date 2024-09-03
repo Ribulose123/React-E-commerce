@@ -1,0 +1,77 @@
+.App{
+  background-color:  hsl(13, 31%, 94%);
+  margin-top: -1.5rem;
+  padding: 0;
+}
+
+.product-con{
+  display: flex;
+  justify-content: space-around;
+  align-items: ;
+}
+
+.product-item{
+  width: 60%;
+  border: 2px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  justify-content: space-around;
+  align-items: center;
+  gap: em;
+}
+
+.image-side{
+  position: relative;
+  padding-top: 2rem;
+}
+.image-side img{
+  width: 230px;
+  height: 230px;
+  border-radius: 10px;
+}
+
+.image-side button{
+  position: absolute;
+  left: 50%;
+  top: 97%;
+  translate: -50% -50%;
+  background-color: white;
+  font-size: 16px;
+  width: 150px;
+  height: 50px;
+  border-radius: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  transition:  0.3s ease;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.image-side button:hover{
+  border-color:  hsl(352, 58%, 57%);
+  color:hsl(352, 58%, 57%) ;
+}
+
+button .cart-icon{
+  color: hsl(352, 58%, 57%);
+}
+
+.product-details h4{
+  color: hsl(14, 25%, 72%);
+  font-size: 12px;
+  margin-top: 2em;
+}
+
+.product-details h2{
+  color: black;
+  font-size: 18px;
+  margin-top: 2em;
+}
+
+.product-details p{
+  color: hsl(352, 58%, 57%);
+  font-size: 15px;
+  margin-top: 2em;
+}
